@@ -92,7 +92,7 @@ cargo build --bin webapp --release
 ```sh
 cd ./wasm-client && wasm-pack build --relesae
 ```
-### Go to www directory(use NodeJs v16)
+### Go to web-server directory(use NodeJs v16)
 ```sh
 npm i && npm run build
 ```
@@ -103,8 +103,8 @@ npm install -g http-server && http-server ./dist -p 8081
 ```
 
 ### Address
-```js
-http://localhost:8080 -> frontEnd web server
-http://localhost:8081 -> manegement sys server 
-http://localhost:3030 -> backEnd Api server
-```
+[frontEnd web server -> http://localhost:8080](http://localhost:8080)
+
+[manegement sys server -> http://localhost:8081](http://localhost:8081)
+
+[backEnd Api server -> http://localhost:3030](http://localhost:3030)
