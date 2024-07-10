@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hello wasm-pack!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="navlink">Wasm-link</a>
+    </div>
+  </nav>
+  <div class="bd" style="height: 600px;">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="car-header">Course</div>
+          <div class="car-body">
+            <button class="btn btn-primary" type="button">添加</button>
+          </div>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Time</th>
+                <th scope="col">Description</th>
+                <th scope="col">操作</th>
+              </tr>
+            </thead>
+            <tbody id="left-tbody"></tbody>
+          </table>
+          <div class="left"></div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-info mb-3">
+          <div class="card-header">添加课程</div>
+          <div class="card-body">
+            <form id="form" class="row g-3 needs-validation">
+              <div class="mb-3">
+                <label for="name" class="form-label">课程名称</label>
+                <input type="text" required placeholder="课程名称" id="name" class="form-control" />
+                <div class="invalid-feedback">请填写课程名</div>
+              </div>
+              <div class="mb-3">
+                <label for="description" class="form-label">课程详情</label>
+                <input type="text" required placeholder="课程详情" id="description" class="form-control" />
+                <div class="invalid-feedback">请填写课程详情</div>
+              </div>
+              <div class="col-3">
+                <button type="submit">提交课程</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./bootstrap.js"></script>
+</body>
+
+</html>
