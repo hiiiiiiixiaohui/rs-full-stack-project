@@ -1,0 +1,27 @@
+[
+    {
+        "order_id": 1,
+        "order_date": "21 Jan 2022",
+        "order_status": "Active"
+    },
+    {
+        "order_id": 2,
+        "order_date": "24 Jan 2022",
+        "order_status": "Sold of Out"
+    },
+    {
+        "order_id": 3,
+        "order_date": "26 Jan 2022",
+        "order_status": "Delivered"
+    },
+    {
+        "order_id": 4,
+        "order_date": "27 Jan 2022",
+        "order_status": "Pending"
+    },
+    {
+        "order_id": 5,
+        "order_date": "28 Jan 2022",
+        "order_status": "Active"
+    },
+]

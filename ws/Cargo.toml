@@ -1,0 +1,4 @@
+[workspace]
+
+members = ["webapp", "webservice", "wasm-client"]
+resolver = "1"
